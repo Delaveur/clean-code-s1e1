@@ -60,8 +60,7 @@
   color: #3a3a3a;
 }
 /* Heading */
-.section-name,
-.add-task-label {
+.section-name {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -70,6 +69,9 @@
   margin: 0;
   text-transform: uppercase;
 }
+.section-name:first-child {
+    margin: 0 0 20px;
+  }
 .task-input-field {
   margin: 0;
   font-size: 18px;
@@ -87,10 +89,6 @@
 }
 
 /* New Task */
-.add-task-label {
-  display: block;
-  margin: 0 0 20px;
-}
 #add-task {
   width: 318px;
 }
