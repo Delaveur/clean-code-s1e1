@@ -39,10 +39,12 @@
   margin: 0;
   padding: 0px;
 }
-.task-item, .section-name {
+.task-item,
+.section-name {
   list-style: none;
 }
-.task-input-field, .task-button{
+.task-input-field,
+.task-button {
   outline: none;
 }
 .task-button {
@@ -58,7 +60,8 @@
   color: #3a3a3a;
 }
 /* Heading */
-.section-name, .add-task-label {
+.section-name,
+.add-task-label {
   color: #333;
   font-weight: 700;
   font-size: 15px;
