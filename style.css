@@ -69,7 +69,7 @@
   margin: 0;
   text-transform: uppercase;
 }
-.section-name:first-child {
+.top-section {
     margin: 0 0 20px;
   }
 .task-input-field {
